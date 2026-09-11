@@ -1,0 +1,13 @@
+int main()
+{
+     int a,b,big;
+     printf("enter two numbers");
+     scanf("%d%d",&a,&b);
+     big=(a>b)?a:b;
+     while(big%a!=0||big%b!=0)
+    {
+        big++;
+    }
+    printf("LCM is %d",big);
+    return 0;
+}
